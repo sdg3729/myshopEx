@@ -1,0 +1,6 @@
+services:
+  myshop-app:
+    image: nokkabi/myshop:latest
+    container_name: myshop-app
+    ports:
+      - "8080:8080"
